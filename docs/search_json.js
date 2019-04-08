@@ -24,18 +24,6 @@ window.ydoc_plugin_search_json = {
       ]
     },
     {
-      "title": "Introduction",
-      "content": "Introduction",
-      "url": "/documents/intro.html",
-      "children": [
-        {
-          "title": "title",
-          "url": "/documents/intro.html#title",
-          "content": "titlecontent"
-        }
-      ]
-    },
-    {
       "title": "env",
       "content": "env",
       "url": "/documents/env.html",

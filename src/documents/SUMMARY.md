@@ -4,5 +4,5 @@
 
 ### Getting Started
 
-* [Introduction](intro.md#)
+* [Introduction](ops.md#)
   * [env](env.md)
