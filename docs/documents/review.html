@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="UTF-8"/><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><link rel="apple-touch-icon" sizes="180x180" href="../ydoc/images/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="../ydoc/images/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../ydoc/images/favicon-16x16.png"/><link rel="manifest" href="../ydoc/images/manifest.json"/><link rel="mask-icon" href="../ydoc/images/safari-pinned-tab.svg" color="#5bbad5"/><meta name="theme-color" content="#ffffff"/><meta http-equiv="Cache-Control" content="no-transform"/><meta http-equiv="Cache-Control" content="no-siteapp"/><title>软件测试背景软件开发的过程软件测试的实质-documents</title><link rel="stylesheet" href="../ydoc/styles/style.css"/><meta name="author" content="ymfe"/><meta name="keywords"/><meta name="description" content="website description"/><meta id="releativePath" content=".."/><link rel="stylesheet" href="../ydoc/ydoc-plugin-search/search.css"/></head><body><div class="g-doc"><div class="m-aside"><div class="m-summary" id="js-menu"><div class="m-summary-content" id="js-menu-content"><div class="m-summary-block"><ul class="m-summary-list"><li class="item"><a href="ops.html" class="href">运维问题</a></li></ul></div><div class="m-summary-block"><div class="m-summary-title">软件测试</div><ul class="m-summary-list indent"><li class="item"><a href="" class="href">软件测试综述</a></li></ul></div></div></div><div class="m-summary-switch" id="js-summary-switch"><svg viewBox="0 0 926.23699 573.74994" version="1.1" x="0px" y="0px" width="15" height="15" class="bottom"><g transform="translate(904.92214,-879.1482)"><path d="m -673.67664,1221.6502 -231.2455,-231.24803 55.6165,-55.627 c 30.5891,-30.59485 56.1806,-55.627 56.8701,-55.627 0.6894,0 79.8637,78.60862 175.9427,174.68583 l 174.6892,174.6858 174.6892,-174.6858 c 96.079,-96.07721 175.253196,-174.68583 175.942696,-174.68583 0.6895,0 26.281,25.03215 56.8701,55.627 l 55.6165,55.627 -231.245496,231.24803 c -127.185,127.1864-231.5279,231.248 -231.873,231.248 -0.3451,0 -104.688,-104.0616 -231.873,-231.248 z" fill="#fff"></path></g></svg><svg viewBox="0 0 926.23699 573.74994" version="1.1" x="0px" y="0px" width="15" height="15" class="top"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="aaa" fill="#fff" fill-rule="nonzero"><path d="M231.2455,342.502 L0,111.25397 L55.6165,55.62697 C86.2056,25.03212 111.7971,-2.99999998e-05 112.4866,-2.99999998e-05 C113.176,-2.99999998e-05 192.3503,78.60859 288.4293,174.6858 L463.1185,349.3716 L637.8077,174.6858 C733.8867,78.60859 813.060896,-2.99999997e-05 813.750396,-2.99999997e-05 C814.439896,-2.99999997e-05 840.031396,25.03212 870.620496,55.62697 L926.236996,111.25397 L694.9915,342.502 C567.8065,469.6884 463.4636,573.75 463.1185,573.75 C462.7734,573.75 358.4305,469.6884 231.2455,342.502 Z" id="Shape" transform="translate(463.118498, 286.874985) scale(1, -1) translate(-463.118498, -286.874985) "></path></g></g></svg></div></div><div class="m-main" id="js-panel"><header class="m-header" id="js-header"><div class="m-header-title js-logo"><a href="../index.html" target="_self"><img class="logo" width="36" src="../ydoc/images/dog@1x.png"/><h6 class="name">YDoc</h6></a></div><div><div class="m-search">
+      <div class="icon">&#xf0fd;</div>
+      <input type="text" class="input js-input" placeholder="搜索" />
+      <div class="m-search-result js-search-result"></div>
+    </div></div><nav class="m-header-nav js-nav"><ul class="m-header-items"><li class="item active"><a class="href" href="index.html">documents</a></li><li class="item "><a class="href" href="../about/index.html">about</a></li></ul></nav><div id="js-nav-btn" class="m-header-btn ui-font-ydoc"></div></header><div class="m-content" id="js-content"><div id="markdown-body" class="m-content-container markdown-body"><h1>软件测试背景</h1>
+<h2 id="摘录">摘录</h2>
+<ol>
+<li>软件缺陷</li>
+</ol>
+<blockquote>
+<p>软件未实现产品说明书要求的功能。<br>
+软件出现了产品说明书指明不应该出现的错误。<br>
+软件实现了产品说明书未提到的功能。<br>
+软件未实现产品说明书虽未明确提及但应该实现的目标。<br>
+软件难以理解、不易使用、运行缓慢或者——从测试员的角度看——最终用户会认为不好。</p>
+</blockquote>
+<ol start="2">
+<li>软件测试员的目的。</li>
+</ol>
+<blockquote>
+<p>软件测试员的目标是尽可能地找出软件缺陷，并确保其得以修复。</p>
+</blockquote>
+<hr>
+<h2 id="测验">测验</h2>
+<ol>
+<li>仅仅测试程序是否按预期方式运行有何问题？<br>
+最多只能算测试问题的一半，用户不一定遵守准则，软件测试员需要证实不按操作有何后果。</li>
+<li>产品说明书为什么通常是软件产品中制造缺陷的最大来源？<br>
+产品说明书没写就可能做不出来；产品说明书虽然有但是不完整、不停更改，或者说明书内容没有同开发小组其他成员沟通过。</li>
+</ol>
+<h1>软件开发的过程</h1>
+<h2 id="摘录">摘录</h2>
+<ol>
+<li>软件设计文档</li>
+</ol>
+<blockquote>
+<p>结构文档、数据流图（泡泡图）、状态转换图、流程图、代码注释</p>
+</blockquote>
+<ol start="2">
+<li>测试文档</li>
+</ol>
+<blockquote>
+<p>测试计划、测试用例、缺陷报告、测试工具和自动测试、度量、统计和总结</p>
+</blockquote>
+<ol start="3">
+<li>软件项目成员</li>
+</ol>
+<blockquote>
+<p>项目经理、程序经理；体系架构师、系统工程师；程序员、开发人员、代码制作者；测试员、质量保证；技术作者、用户协助专员、用户培训专员、手册编写员、文案专员；配置管理员、构建员</p>
+</blockquote>
+<ol start="4">
+<li>软件开发模式</li>
+</ol>
+<blockquote>
+<p>大爆炸模式、边写边改模式、瀑布模式、螺旋模式</p>
+</blockquote>
+<hr>
+<h2 id="测验">测验</h2>
+<ol>
+<li>程序员开始编写代码之前要完成哪些任务？<br>
+开发小组需要了解客户要求，在产品说明书中定义功能特性，建立详细的进度，使小组成员知道哪些工作已经完成，哪些工作还要做。软件应该形成体系，经过设计，测试小组应该开始计划工作。</li>
+<li>采用边写边改模式时，如何得知软件发布的时间？<br>
+边写边改模式没有真正的退出标准，除非某人或者进度决定该结束了。</li>
+<li>瀑布模式为什么不好用？<br>
+每一步都是跟着上一步的独立、离散的过程，如果走到头发现有些事情应该早做时，想退回就来不及了。</li>
+<li>软件测试员为什么最喜欢螺旋模式？<br>
+他们很早就参与开发过程，有机会尽早发现问题，为项目节省时间和金钱。</li>
+</ol>
+<h1>软件测试的实质</h1>
+<h2 id="摘录">摘录</h2>
+<ol>
+<li>软件测试是有风险的行为</li>
+</ol>
+<blockquote>
+<p>如果试图测试所有情况，费用将大幅增加，而软件缺陷漏掉的数量在到达某一点后没有显著变化。如果减少测试或者错误地确定测试对象，虽然费用很低，但是会漏掉大量软件缺陷。</p>
+</blockquote>
+<ol start="2">
+<li>并非所有软件都需要修复</li>
+</ol>
+<blockquote>
+<p>没有足够的时间；不算真正的软件缺陷；修复的风险太大；不值得修复。</p>
+</blockquote>
+<ol start="3">
+<li>确认和验证</li>
+</ol>
+<blockquote>
+<p><strong>确认</strong>是保证软件符合产品说明书的过程；<strong>验证</strong>是保证软件满足用户要求的过程。</p>
+</blockquote>
+<ol start="4">
+<li>测试和质量保证（QA）</li>
+</ol>
+<blockquote>
+<p><strong>软件测试员</strong>的目标是尽可能早地找出软件缺陷并确保缺陷得以修复。<br>
+<strong>软件质量保证人员</strong>的主要职责是创建和执行改进软件开发过程并防止软件缺陷发生的标准和方法。</p>
+</blockquote>
+<hr>
+<h2 id="测验">测验</h2>
+<ol>
+<li>为什么不可能完全测试程序？<br>
+除了极短小的简单程序，完全测试需要太多输入、输出和分支组合。此外软件说明书也许不客观，可以用多种方式解释。</li>
+<li>假如周一测试软件的某一功能，每小时发现一个新的软件缺陷，你认为周二将以什么样的频率发现软件缺陷？<br>
+余下的软件缺陷与发现的软件缺陷成比例——意为着周二不会比周一的情况好多少；其次，杀虫剂现象表明，除非增加新的测试，否则反复执行同样的测试不会发现不同的新软件缺陷。综上，可能发现软件缺陷的速度继续保持原有的频率，甚至更低。</li>
+</ol>
+</div><div class="m-content-container m-paging"><div class="m-paging-prev m-paging-item"><a href="index.html" class="href"><span class="ui-font-ydoc"></span>documents</a></div></div></div></div></div><div></div><script>
+    var $content = document.getElementById('js-content');
+    var $summaryItems = Array.prototype.slice.call(document.querySelectorAll('#js-menu .href'));
+    var $menu = document.getElementById('js-menu');
+    if ($menu && sessionStorage.menuScrollTop) {
+		$menu.scrollTop = sessionStorage.menuScrollTop;
+    }
+    // 刷新页面但不切换 pathname 的时候，内容区恢复到记忆的高度
+    if ($content && sessionStorage.contentScrollTop && window.location.pathname == sessionStorage.locationPathname) {
+      $content.scrollTop = sessionStorage.contentScrollTop;
+    }
+    sessionStorage.setItem('locationPathname', window.location.pathname);</script><script src="../ydoc/scripts/plugins/dollar.min.js"></script><script src="../ydoc/scripts/plugins/responsive-nav.min.js"></script><script src="../ydoc/scripts/plugins/slideout.min.js"></script><script src="../ydoc/scripts/app.js"></script><script src="../ydoc/ydoc-plugin-search/core.js"></script><script src="../ydoc/ydoc-plugin-search/search.js"></script><script src="../search_json.js"></script></body></html>
