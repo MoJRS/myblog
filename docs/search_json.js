@@ -1,5 +1,5 @@
 window.ydoc_plugin_search_json = {
-  "softwaretesting": [
+  "软件测试": [
     {
       "title": "软件测试",
       "content": "这是软件测试的读书笔记。",
