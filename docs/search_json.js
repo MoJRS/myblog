@@ -1,24 +1,24 @@
 window.ydoc_plugin_search_json = {
-  "documents": [
+  "softwaretesting": [
     {
-      "title": "ydoc",
-      "content": "This is home page of documents book.",
-      "url": "/documents/index.html",
+      "title": "软件测试",
+      "content": "这是软件测试的读书笔记。",
+      "url": "/softwaretesting/index.html",
       "children": []
     },
     {
       "title": "软件测试背景软件开发的过程软件测试的实质",
       "content": "",
-      "url": "/documents/review.html",
+      "url": "/softwaretesting/review.html",
       "children": [
         {
           "title": "摘录",
-          "url": "/documents/review.html#摘录",
+          "url": "/softwaretesting/review.html#摘录",
           "content": "摘录软件测试是有风险的行为\n如果试图测试所有情况，费用将大幅增加，而软件缺陷漏掉的数量在到达某一点后没有显著变化。如果减少测试或者错误地确定测试对象，虽然费用很低，但是会漏掉大量软件缺陷。\n并非所有软件都需要修复\n没有足够的时间；不算真正的软件缺陷；修复的风险太大；不值得修复。\n确认和验证\n确认是保证软件符合产品说明书的过程；验证是保证软件满足用户要求的过程。\n测试和质量保证（QA）\n软件测试员的目标是尽可能早地找出软件缺陷并确保缺陷得以修复。\n软件质量保证人员的主要职责是创建和执行改进软件开发过程并防止软件缺陷发生的标准和方法。\n"
         },
         {
           "title": "测验",
-          "url": "/documents/review.html#测验",
+          "url": "/softwaretesting/review.html#测验",
           "content": "测验为什么不可能完全测试程序？\n除了极短小的简单程序，完全测试需要太多输入、输出和分支组合。此外软件说明书也许不客观，可以用多种方式解释。\n假如周一测试软件的某一功能，每小时发现一个新的软件缺陷，你认为周二将以什么样的频率发现软件缺陷？\n余下的软件缺陷与发现的软件缺陷成比例——意为着周二不会比周一的情况好多少；其次，杀虫剂现象表明，除非增加新的测试，否则反复执行同样的测试不会发现不同的新软件缺陷。综上，可能发现软件缺陷的速度继续保持原有的频率，甚至更低。\n"
         }
       ]
